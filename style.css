@@ -64,4 +64,19 @@ body, html {
     font-weight: bold;
     margin-top: 10px;
   }
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10; /* Make sure it's above the background */
+  text-align: center;
+  color: white; /* Optional: Make text visible on any background */
+  font-size: 2rem;
+  font-weight: bold;
+}
   
